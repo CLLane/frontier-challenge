@@ -164,10 +164,15 @@ article {
 }
 section {
   justify-content: space-evenly;
+  background-image: url(https://riverplacecapital.com/wp-content/uploads/2019/10/sky2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
 }
 header,
 footer {
   justify-content: center;
+  background-color: #006643;
+  color: #FFFFFF;
 }
 ul {
   list-style-type: none;
