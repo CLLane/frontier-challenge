@@ -148,6 +148,7 @@ export default {
 </script>
 
 <style>
+/* The original code utilized grid, but for the sake of time I decided to use flex-box since the positioning was quite simple */
 main,
 article,
 section,
@@ -166,13 +167,16 @@ section {
   justify-content: space-evenly;
   background-image: url(https://riverplacecapital.com/wp-content/uploads/2019/10/sky2.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%; 
+  background-size: 100% 100%;
 }
 header,
 footer {
   justify-content: center;
   background-color: #006643;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+h3 {
+  font-size: x-large;
 }
 ul {
   list-style-type: none;
