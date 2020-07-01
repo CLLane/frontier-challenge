@@ -127,8 +127,7 @@ export default {
       this.date = new Date().getFullYear();
     },
     formatPhoneNumber(phoneNumberString) {
-      let cleaned = ("" + phoneNumberString).replace(/\D/g, "");
-      let match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
+      let match = phoneNumberString.match(/^(\d{3})(\d{3})(\d{4})$/);
       return "(" + match[1] + ") " + match[2] + "-" + match[3];
     },
 
