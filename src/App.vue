@@ -202,6 +202,7 @@ li {
 .active {
   background-color: palegreen;
 }
+/* In an attempt to fix the mobile layout problem I snapped the articles into a column at 875px with a media query */
 @media screen and (max-width: 875px) {
   section {
     flex-direction: column;
